@@ -1,0 +1,18 @@
+[build]
+  publish = "."
+  command = "sed -i 's|http://127.0.0.1:5000|'$API_BASE_URL'|g' index.html app.js && echo 'API URLs updated for deployment'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://your-backend-url.herokuapp.com/:splat"
+  status = 200
+  force = true
+
+[context.production.environment]
+  API_BASE_URL = "https://your-backend-url.herokuapp.com"
+
+[context.deploy-preview.environment]
+  API_BASE_URL = "https://your-backend-url.herokuapp.com"
