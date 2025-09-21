@@ -7,19 +7,23 @@ Empower your DevOps workflow with **advanced cluster insights, security vulnerab
 ## 📸 **Dashboard Screenshots**
 
 ### **Main Dashboard Overview**
-![Dashboard Overview](https://via.placeholder.com/800x400/3498db/ffffff?text=K8+Dashboard+Overview)
+![Dashboard Overview](MainDashboardOverview.png)
 *Real-time system metrics, cluster resources, and health status monitoring*
 
+### **Deployments Interface**
+![Deployments Overview](DeploymentsInterface.png)
+*Deployments monitoring and management*
+
 ### **Pod Management Interface**
-![Pod Management](https://via.placeholder.com/800x400/2ecc71/ffffff?text=Pod+Management+Interface)
+![Pod Management](PodManagementInterface.png)
 *Interactive pod status visualization and real-time monitoring*
 
 ### **Security Scanning Results**
-![Security Scanner](https://via.placeholder.com/800x400/e74c3c/ffffff?text=Security+Vulnerability+Scanner)
+![Security Scanner](SecurityScanningResults.png)
 *Container image vulnerability detection and reporting*
 
 ### **Log Viewer with Filtering**
-![Log Viewer](https://via.placeholder.com/800x400/f39c12/ffffff?text=Pod+Logs+Viewer)
+![Log Viewer](LogViewerwithFiltering.png)
 *Real-time pod logs with advanced filtering capabilities*
 
 ---
@@ -130,7 +134,7 @@ pip install -r requirements.txt
 python systeminfo.py
 ```
 
-🚀 The dashboard is now accessible at **[http://localhost:5000](http://localhost:5000)**.  
+The dashboard is now accessible at **[http://localhost:5000](http://localhost:5000)**.  
 
 ---
 
